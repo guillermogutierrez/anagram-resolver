@@ -1,0 +1,4 @@
+#!/bin/bash
+./mvnw clean package
+cp target/anagram-resolver-*.jar ./anagram-resolver.jar
+./mvnw clean
